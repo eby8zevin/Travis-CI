@@ -8,7 +8,7 @@
 <body>
 
   <h1>Wes Dadi Mas :v</h1>
-  <p>Support by <a href="heroku.com">Heroku</a></p>
+  <p>Support by</p> <a href="heroku.com">Heroku</a>
 
 </body>
 </html>
