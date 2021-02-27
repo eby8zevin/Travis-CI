@@ -1,3 +1,5 @@
+<?php
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,6 +9,5 @@
     <meta name="author" content="">
   </head>
 <body>
-
 </body>
 </html>
