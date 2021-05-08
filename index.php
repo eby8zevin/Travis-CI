@@ -3,6 +3,7 @@ require_once 'vendor/autoload.php';
 
 $pages = new \Controllers\Core\Web\Pages();
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
