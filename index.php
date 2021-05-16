@@ -13,10 +13,10 @@ $pages = new \Controllers\Core\Web\Pages();
     <meta name="author" content="">
   </head>
 <body>
-  
+
   <h1><?php echo $pages->render(); ?></h1>
 
-  <pre><?php var_dump($pages->returnArray());?></pre>
+  <pre><?php var_dump($pages->returnArray()); ?></pre>
 
 </body>
 </html>
