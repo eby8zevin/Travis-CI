@@ -10,7 +10,12 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Ahmadabuhasan\\TravisCiPhp\\": "src/"
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\": "tests/"
         }
     },
     "authors": [
