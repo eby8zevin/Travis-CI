@@ -1,6 +1,7 @@
 {
     "name": "ahmadabuhasan/travis-ci-php",
     "description": "TravisCI-PHP",
+    "minimum-stability": "stable",
     "require": {
         "phpunit/phpunit": "9.5.5"
     },
