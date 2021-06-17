@@ -2,7 +2,7 @@
 
 namespace App;
 
-class HelloWord
+class HelloWorld
 {
     public function say()
     {
