@@ -4,8 +4,8 @@ php:
   - 7.1.9
 
 before_script:
-  - composer self-update --2
-  - composer install --no-interaction --no-dev --prefer-dist
+  - composer install
+  - composer self-update --1
 
 script: phpunit --configuration phpunit.xml --coverage-text
 
