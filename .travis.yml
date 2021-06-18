@@ -7,7 +7,6 @@ php:
 before_script:
   - composer install --ignore-platform-reqs
   - composer update --ignore-platform-reqs
-  - composer install --prefer-dist --no-interaction --no-dev
 
 script: phpunit --configuration phpunit.xml --coverage-text
 
