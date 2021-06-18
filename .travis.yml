@@ -1,11 +1,11 @@
 language: php
 
 php:
-  - 7.1.9
+  - 7.0
+  - 7.1
 
 before_script:
-  - composer install
-  - composer self-update --1
+  - composer install --prefer-dist --no-interaction
 
 script: phpunit --configuration phpunit.xml --coverage-text
 
