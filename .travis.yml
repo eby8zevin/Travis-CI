@@ -7,7 +7,7 @@ before_script:
   - composer install --ignore-platform-reqs
   - composer update --ignore-platform-reqs
 
-script: phpunit --configuration phpunit.xml --coverage-text
+script: phpunit --configuration $DB.phpunit.xml
 
 notifications:
   notifications:
